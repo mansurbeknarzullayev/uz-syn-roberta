@@ -1,3 +1,4 @@
 text.txt
 dataset.txt
 models/UzRoBERTa/pytorch_model.bin
+.idea

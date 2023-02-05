@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d57f2df2-021a-4043-907a-999a28a63491" name="Changes" comment="Uploaded files" />
+    <list default="true" id="d57f2df2-021a-4043-907a-999a28a63491" name="Changes" comment="Uploaded files">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +36,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/mansurbek/CP/leetcode",
+    "last_opened_file_path": "/home/mansurbek/Projects/NLP/uz-syn-roberta",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,6 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675575905858</updated>
       <workItem from="1675575907411" duration="4757000" />
+      <workItem from="1675616955785" duration="111000" />
     </task>
     <task id="LOCAL-00001" summary="Uploaded files">
       <created>1675575960907</created>

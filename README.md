@@ -19,7 +19,7 @@ import torch
 
 path = 'dataset.txt'
 tokenizer = ByteLevelBPETokenizer()
-tokenizer.train(files=path, vocab_size=52_000, min_frequency=2, special_tokens=["<s>", "<pad>", "</s>", "<unk>", "<mask>",])
+tokenizer.train(files=path, vocab_size=52_000, min_frequency=2, special_tokens=["&lt;s&gt;", "&lt&lt;pad&gt;", "&lt&lt;/s&gt;", "&lt&lt;unk&gt;", "&lt&lt;mask&gt;",])
 tokenizer.save_model("models/UzRoBERTa")
 config = RobertaConfig(
     vocab_size=52_000,
@@ -66,7 +66,7 @@ fill_mask = pipeline(
     "fill-mask",
     model="Mansurbek/uz-syn-roberta"
 )
-print(*fill_mask("Tadbirkorlik – foyda olish <mask> faoliyat."), sep = '\n')
+print(*fill_mask("Tadbirkorlik – foyda olish &lt&lt;mask&gt; faoliyat."), sep = '\n')
 </pre>
 
 ## Result
