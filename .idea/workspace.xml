@@ -7,6 +7,9 @@
     <list default="true" id="d57f2df2-021a-4043-907a-999a28a63491" name="Changes" comment="Uploaded files">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/synonymizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/synonymizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/tester.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,8 +173,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.synonymizer" />
-        <item itemvalue="Python.trainer" />
         <item itemvalue="Python.tester" />
+        <item itemvalue="Python.trainer" />
         <item itemvalue="Python.data_manipuator (1)" />
         <item itemvalue="Python.data_manipuator" />
       </list>
@@ -190,7 +193,7 @@
       <workItem from="1675627223849" duration="1128000" />
       <workItem from="1675629506000" duration="2887000" />
       <workItem from="1675689371393" duration="1658000" />
-      <workItem from="1675694466875" duration="3033000" />
+      <workItem from="1675694466875" duration="3453000" />
     </task>
     <task id="LOCAL-00001" summary="Uploaded files">
       <created>1675575960907</created>
@@ -214,7 +217,7 @@
     <SUITE FILE_PATH="coverage/uz_syn_roberta$data_manipuator__1_.coverage" NAME="data_manipuator (1) Coverage Results" MODIFIED="1675625944674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/uz_syn_roberta$data_manipuator.coverage" NAME="data_manipuator Coverage Results" MODIFIED="1675625076140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
     <SUITE FILE_PATH="coverage/uz_syn_roberta$trainer.coverage" NAME="trainer Coverage Results" MODIFIED="1675629526979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/uz_syn_roberta$synonymizer.coverage" NAME="synonymizer Coverage Results" MODIFIED="1675696937438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/uz_syn_roberta$tester.coverage" NAME="tester Coverage Results" MODIFIED="1675626305734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/uz_syn_roberta$synonymizer.coverage" NAME="synonymizer Coverage Results" MODIFIED="1675697895486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/uz_syn_roberta$tester.coverage" NAME="tester Coverage Results" MODIFIED="1675697718065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

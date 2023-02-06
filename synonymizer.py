@@ -2,8 +2,8 @@ from transformers import pipeline
 
 fill_mask = pipeline(
     "fill-mask",
-    model="models/UzRoBERTa",
-    tokenizer="models/UzRoBERTa"
+    model="Mansurbek/uz-syn-roberta",
+    tokenizer="Mansurbek/uz-syn-roberta"
 )
 
 synset = []
@@ -33,4 +33,3 @@ def get_syn(s):
 sentence = "Tadbirkorlik – foyda olish uchun faoliyat."
 
 print(*get_syn(sentence), sep = '\n')
-
