@@ -8,9 +8,9 @@ from transformers import Trainer, TrainingArguments
 from transformers import pipeline
 import torch
 
-path = 'dataset.txt'
+dataset_file = 'data/dataset.txt'
 tokenizer = ByteLevelBPETokenizer()
-tokenizer.train(files=path, vocab_size=52_000, min_frequency=2, special_tokens=["<s>", "<pad>", "</s>", "<unk>", "<mask>",])
+tokenizer.train(files=dataset_file, vocab_size=52_000, min_frequency=2, special_tokens=["<s>", "<pad>", "</s>", "<unk>", "<mask>",])
 tokenizer.save_model("models/UzRoBERTa")
 config = RobertaConfig(
     vocab_size=52_000,
@@ -24,7 +24,7 @@ model = RobertaForMaskedLM(config=config)
 
 dataset = LineByLineTextDataset(
     tokenizer=tokenizer,
-    file_path="dataset.txt",
+    file_path=dataset_file,
     block_size=128,
 )
 data_collator = DataCollatorForLanguageModeling(
@@ -35,12 +35,11 @@ training_args = TrainingArguments(
     output_dir="models/UzRoBERTa",
     overwrite_output_dir=True,
     num_train_epochs=1,
-    per_device_train_batch_size=16,
+    per_device_train_batch_size=8,
     save_steps=10_000,
     save_total_limit=2,
     prediction_loss_only=True,
 )
-
 trainer = Trainer(
     model=model,
     args=training_args,
@@ -49,4 +48,3 @@ trainer = Trainer(
 )
 trainer.train()
 trainer.save_model("models/UzRoBERTa")
-
