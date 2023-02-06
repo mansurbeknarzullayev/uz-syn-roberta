@@ -26,7 +26,7 @@ def get_syn(s):
         words[i] = '<mask>'
         for syn in get_syn_words(word):
             for token in fill_mask(' ' . join(words), top_k=100):
-                if token['token_str'].strip() == syn:
+                if token['token_str'].strip() == syn and syn != word:
                     ret.append(token)
         words[i] = word
     return ret
