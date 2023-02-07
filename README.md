@@ -1,4 +1,6 @@
 # uz-syn-roberta
+## Train
+Trained using kun.uz and daryo.uz news (600 MB)
 
 ## Requirements
 <pre>
